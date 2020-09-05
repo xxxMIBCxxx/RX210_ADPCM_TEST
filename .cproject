@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.rxc.debug.win32.configuration.Id.1392498416.1447789541">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.rxc.debug.win32.configuration.Id.1392498416.1447789541" moduleId="org.eclipse.cdt.core.settings" name="HardwareDebug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.renesas.cdt.core.KPITGCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.core.KPITGASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.core.CCRXErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.core.KPITMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.core.KPITGLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="mot" artifactName="rx210_rsk" buildArtefactType="com.renesas.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.renesas.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf *.sni *.dbg *.lst *.lis *.lpp *.map *.x *.lbp src/*.src src/*.p src/*.pp src/*.mrc *.bls *.libelf *.lbk *.abs *.fsy" description="Debug on hardware" id="com.renesas.cdt.rxc.debug.win32.configuration.Id.1392498416.1447789541" name="HardwareDebug" parent="com.renesas.cdt.rxc.debug.win32.configuration.Id">
+					<folderInfo id="com.renesas.cdt.rxc.debug.win32.configuration.Id.1392498416.1447789541." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.rxc.debug.win32.toolChain.Id.1547356450" name="Renesas RXC Toolchain" superClass="com.renesas.cdt.rxc.debug.win32.toolChain.Id" targetTool="com.renesas.cdt.rxc.debug.win32.tool.convertor.Id">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.PE" id="com.renesas.cdt.rxc.debug.win32.targetPlatform.Id.2127479865" isAbstract="false" osList="win32" superClass="com.renesas.cdt.rxc.debug.win32.targetPlatform.Id"/>
+							<builder buildPath="${workspace_loc:/rx210_rsk}/Debug" id="com.renesas.cdt.rxc.debug.win32.builder.Id.1785458657" keepEnvironmentInBuildfile="false" name="SHC Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.renesas.cdt.rxc.debug.win32.builder.Id"/>
+							<tool id="com.renesas.cdt.rxc.debug.win32.tool.dsp.Id.881245815" name="DSP Assembler" superClass="com.renesas.cdt.rxc.debug.win32.tool.dsp.Id"/>
+							<tool id="com.renesas.cdt.rxc.debug.win32.tool.compiler.Id.1086104390" name="Compiler" superClass="com.renesas.cdt.rxc.debug.win32.tool.compiler.Id">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Compiler.option.defines.532859364" name="定義" superClass="com.renesas.cdt.renesas.Compiler.option.defines" valueType="stringList">
+									<listOptionValue builtIn="false" value="__RX"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Compiler.option.compilerDefinedSymbols.108254754" name="Compiler Defined Symbols" superClass="com.renesas.cdt.renesas.Compiler.option.compilerDefinedSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__STDC_VERSION__=199901L"/>
+									<listOptionValue builtIn="false" value="__STDC_HOSTED__=1"/>
+									<listOptionValue builtIn="false" value="__RXV1=1"/>
+									<listOptionValue builtIn="false" value="__LIT=1"/>
+									<listOptionValue builtIn="false" value="__DBL4=1"/>
+									<listOptionValue builtIn="false" value="__UCHAR=1"/>
+									<listOptionValue builtIn="false" value="__UBIT=1"/>
+									<listOptionValue builtIn="false" value="__RON=1"/>
+									<listOptionValue builtIn="false" value="__DOFF=1"/>
+									<listOptionValue builtIn="false" value="__BITRIGHT=1"/>
+									<listOptionValue builtIn="false" value="__INTRINSIC_LIB=1"/>
+									<listOptionValue builtIn="false" value="__RX200=1"/>
+									<listOptionValue builtIn="false" value="__RENESAS__=1"/>
+									<listOptionValue builtIn="false" value="__RENESAS_VERSION__=0x02040100"/>
+									<listOptionValue builtIn="false" value="__RX=1"/>
+									<listOptionValue builtIn="false" value="__CCRX__=1"/>
+								</option>
+								<option defaultValue="true" id="com.renesas.cdt.renesas.Compiler.option.GenDebugInfo.1439843845" name="デバッグ情報を生成する" superClass="com.renesas.cdt.renesas.Compiler.option.GenDebugInfo" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.Compiler.option.CPUSeries.1318315470" name="CPU シリーズ" superClass="com.renesas.cdt.renesas.Compiler.option.CPUSeries" value="RX210" valueType="string"/>
+								<option id="com.renesas.cdt.renesas.Compiler.option.CPP.2135032055" name="C++(P):" superClass="com.renesas.cdt.renesas.Compiler.option.CPP" value="com.renesas.cdt.renesas.Compiler.option.CPP.cpp" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Compiler.option.UserDef.1288912308" name="ユーザー定義オプション" superClass="com.renesas.cdt.renesas.Compiler.option.UserDef" valueType="stringList">
+									<listOptionValue builtIn="false" value="-nologo"/>
+									<listOptionValue builtIn="false" value="-nologo"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Compiler.option.incFileDirectories.1646341926" name="インクルード・ファイル・ディレクトリー" superClass="com.renesas.cdt.renesas.Compiler.option.incFileDirectories" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${TCINSTALL}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/sample}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/r_bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/r_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/r_s2_rx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/r_s2_rx/lib}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.renesas.Compiler.option.device.1804230888" name="Device" superClass="com.renesas.cdt.renesas.Compiler.option.device" value="R5F52108" valueType="string"/>
+								<option id="com.renesas.cdt.renesas.Compiler.option.deviceShortName.2087903698" name="DeviceShortName" superClass="com.renesas.cdt.renesas.Compiler.option.deviceShortName" value="R5F52108AxFP" valueType="string"/>
+								<option id="com.renesas.cdt.renesas.Compiler.option.C.1640955606" name="C :" superClass="com.renesas.cdt.renesas.Compiler.option.C" value="C99" valueType="enumerated"/>
+								<option id="com.renesas.cdt.renesas.Compiler.option.inputCharcterCode.88444969" name="文字コードを入力する" superClass="com.renesas.cdt.renesas.Compiler.option.inputCharcterCode" value="com.renesas.cdt.renesas.Compiler.option.inputCharcterCode.SJIS" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Compiler.option.optimizationType.806550251" name="最適化のタイプ" superClass="com.renesas.cdt.rxc.Debug.Compiler.option.optimizationType" value="com.renesas.cdt.rxc.Debug.Compiler.option.optimizationType.size" valueType="enumerated"/>
+								<option id="com.renesas.cdt.renesas.Compiler.option.optimForExternalVariables.256031667" name="外部変数へのアクセスを優先" superClass="com.renesas.cdt.renesas.Compiler.option.optimForExternalVariables" value="com.renesas.cdt.renesas.Compiler.option.optimForExternalVariables.none" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Compiler.option.misra2004ApplyRule.902913391" name="適用するルール:" superClass="com.renesas.cdt.rxc.Debug.Compiler.option.misra2004ApplyRule" value="com.renesas.cdt.rxc.Debug.Compiler.option.misra2004ApplyRule.none" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Compiler.option.misra2004RuleFile.899832819" name="ルール番号記載ファイル" superClass="com.renesas.cdt.rxc.Debug.Compiler.option.misra2004RuleFile" value="${CONFIGDIR}\rx210_rsk.rde" valueType="string"/>
+								<option id="com.renesas.cdt.rxc.Debug.Compiler.option.cpuType.539034384" name="CPU 型名" superClass="com.renesas.cdt.rxc.Debug.Compiler.option.cpuType" value="com.renesas.cdt.rxc.Debug.Compiler.option.cpuType.rx200" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Compiler.option.addressRegister.1183484823" name="アドレス・レジスター" superClass="com.renesas.cdt.rxc.Debug.Compiler.option.addressRegister" value="com.renesas.cdt.rxc.Debug.Compiler.option.addressRegister.none" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Compiler.option.isa.793168088" name="命令セット・アーキテクチャ" superClass="com.renesas.cdt.rxc.Debug.Compiler.option.isa" value="com.renesas.cdt.rxc.Debug.Compiler.option.isa.rxv1" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Compiler.option.floatIns.725555408" name="浮動小数点演算命令を使用する" superClass="com.renesas.cdt.rxc.Debug.Compiler.option.floatIns" value="Disable" valueType="enumerated"/>
+								<inputType id="%Base.Compiler.Shc.C.Input.Id.1082015861" name="C 入力" superClass="%Base.Compiler.Shc.C.Input.Id"/>
+								<inputType id="%Base.Compiler.Shc.C.Input1.Id.826867330" name="C++ 入力" superClass="%Base.Compiler.Shc.C.Input1.Id"/>
+							</tool>
+							<tool id="com.renesas.cdt.rxc.debug.win32.tool.assembler.Id.971973845" name="Assembler" superClass="com.renesas.cdt.rxc.debug.win32.tool.assembler.Id">
+								<option id="com.renesas.cdt.rxc.Debug.Assembler.option.debugInformation.1122236623" name="デバッグ情報を生成する" superClass="com.renesas.cdt.rxc.Debug.Assembler.option.debugInformation" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.rxc.Debug.Assembler.option.cpu.836884905" name="CPU" superClass="com.renesas.cdt.rxc.Debug.Assembler.option.cpu" value="com.renesas.cdt.rxc.Debug.Assembler.option.cpu.rx200" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Assembler.option.address.1939492" name="アドレス" superClass="com.renesas.cdt.rxc.Debug.Assembler.option.address" value="00000000" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Assembler.option.userDefine.2027225902" name="ユーザー定義オプション" superClass="com.renesas.cdt.renesas.Assembler.option.userDefine" valueType="stringList">
+									<listOptionValue builtIn="false" value="-nologo"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Assembler.option.assemblerDefinedSymbols.894100957" name="Assembler Defined Symbols" superClass="com.renesas.cdt.renesas.Assembler.option.assemblerDefinedSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__RX200=.DEFINE 1"/>
+									<listOptionValue builtIn="false" value="__LITTLE=.DEFINE 1"/>
+									<listOptionValue builtIn="false" value="__RXV1=.DEFINE 1"/>
+									<listOptionValue builtIn="false" value="__RENESAS_VERSION__=.DEFINE 002040100H"/>
+									<listOptionValue builtIn="false" value="__ASRX__=.DEFINE 1"/>
+									<listOptionValue builtIn="false" value="__RENESAS__=.DEFINE 1"/>
+								</option>
+								<option id="com.renesas.cdt.rxc.Debug.Assembler.option.isa.1951507319" name="命令セット・アーキテクチャ" superClass="com.renesas.cdt.rxc.Debug.Assembler.option.isa" value="RXv1 architecture" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.Assembler.option.fpu.1802774291" name="浮動小数点演算命令を使用する" superClass="com.renesas.cdt.rxc.Debug.Assembler.option.fpu" value="Disable" valueType="enumerated"/>
+								<inputType id="%Base.Assembler.shcInputType.Id.1784336707" name="アセンブラー入力タイプ" superClass="%Base.Assembler.shcInputType.Id"/>
+							</tool>
+							<tool command="rlink" id="com.renesas.cdt.rxc.debug.win32.tool.linker.Id.931946896" name="Linker" superClass="com.renesas.cdt.rxc.debug.win32.tool.linker.Id">
+								<option command="-list=&quot;rx210_rsk.map&quot; -show" id="com.renesas.cdt.renesas.Linker.option.generateListFile.689077742" name="リスト・ファイルを生成する" superClass="com.renesas.cdt.renesas.Linker.option.generateListFile" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.Linker.option.typeOfOutputFileOption.463045324" name="出力ファイル・タイプ:" superClass="com.renesas.cdt.renesas.Linker.option.typeOfOutputFileOption" value="com.renesas.cdt.renesas.Linker.option.typeOfOutputFileOption.stypeViaAbsolute" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Linker.option.linkOrderList.125572569" name="" superClass="com.renesas.cdt.renesas.Linker.option.linkOrderList" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;.\sample\r_main.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\sample\r_s2_decode.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\sample\r_s2_encode.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\sample\r_s2_peripheral_if.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\hew_files\dbsct.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\hew_files\hwsetup.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\hew_files\intprg.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\hew_files\resetprg.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\hew_files\vecttbl.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\rx210_rsk.lib&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Linker.option.rom.581289294" name="ROMからRAMへマップするセクション" superClass="com.renesas.cdt.renesas.Linker.option.rom" valueType="stringList">
+									<listOptionValue builtIn="false" value="D=R"/>
+									<listOptionValue builtIn="false" value="D_1=R_1"/>
+									<listOptionValue builtIn="false" value="D_2=R_2"/>
+								</option>
+								<option id="com.renesas.cdt.renesas.Linker.option.showSymbol.691870285" name="シンボルを表示する" superClass="com.renesas.cdt.renesas.Linker.option.showSymbol" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.Linker.option.showReference.96144241" name="参照を表示する" superClass="com.renesas.cdt.renesas.Linker.option.showReference" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.Linker.category.output.advanced.stack.1665060952" name="スタック使用量情報ファイルを出力する" superClass="com.renesas.cdt.renesas.Linker.category.output.advanced.stack" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.rxc.Debug.Linker.option.relocatableFiles.2053484579" name="リロケータブル・ファイル、オブジェクト・ファイル、およびライブラリー・ファイル" superClass="com.renesas.cdt.rxc.Debug.Linker.option.relocatableFiles" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/r_s2_rx/lib/s2_rx200_little_rtune.lib}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.renesas.Linker.option.userDefined.595152092" name="ユーザー定義オプション" superClass="com.renesas.cdt.renesas.Linker.option.userDefined" valueType="stringList">
+									<listOptionValue builtIn="false" value="-nologo"/>
+									<listOptionValue builtIn="false" value="-binary=&quot;${workspace_loc:/${ProjName}/adpcm/sound_adpcm.dat}&quot;(ADPCM_ADDR1)"/>
+									<listOptionValue builtIn="false" value="-nomessage"/>
+								</option>
+								<option defaultValue="In output load module" id="com.renesas.cdt.renesas.Linker.option.debugInformation.1364829228" name="デバッグ情報" superClass="com.renesas.cdt.renesas.Linker.option.debugInformation" value="com.renesas.cdt.renesas.Linker.option.debugInformation.outputLoadModule" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.renesas.cdt.renesas.Linker.option.linkOrder.34869330" name="%option.name.179" superClass="com.renesas.cdt.renesas.Linker.option.linkOrder" valueType="stringList"/>
+								<option id="com.renesas.cdt.renesas.Linker.option.vect.1600943589" name="可変ベクタの空き領域のアドレス" superClass="com.renesas.cdt.renesas.Linker.option.vect" value="_undefined_interrupt_source_isr" valueType="string"/>
+							</tool>
+							<tool id="%com.renesas.cdt.rxc.debug.win32.tool.libgen.Id.1542468730" name="Standard Library" superClass="%com.renesas.cdt.rxc.debug.win32.tool.libgen.Id">
+								<option id="com.renesas.cdt.renesas.StandardLibrary.option.mathc89.829598739" name="math.h (C89/C99): 数値計算用ライブラリー" superClass="com.renesas.cdt.renesas.StandardLibrary.option.mathc89" value="false" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.StandardLibrary.option.stdioc89.1339004181" name="stdio.h (C89/C99): 入出力用ライブラリー" superClass="com.renesas.cdt.renesas.StandardLibrary.option.stdioc89" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.StandardLibrary.option.stdlibc89.1456210193" name="stdlib.h (C89/C99): 標準処理用ライブラリー" superClass="com.renesas.cdt.renesas.StandardLibrary.option.stdlibc89" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.StandardLibrary.option.stringc89.1028435710" name="string.h (C89/C99): 文字列操作用ライブラリー" superClass="com.renesas.cdt.renesas.StandardLibrary.option.stringc89" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.renesas.StandardLibrary.option.rxcnewCPP.832435169" name="new (EC++): メモリ操作用ライブラリー" superClass="com.renesas.cdt.renesas.StandardLibrary.option.rxcnewCPP" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.rxc.Debug.StandardLibrary.option.cpu.1543765965" name="CPU" superClass="com.renesas.cdt.rxc.Debug.StandardLibrary.option.cpu" value="com.renesas.cdt.rxc.Debug.StandardLibrary.option.cpu.rx200" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.StandardLibrary.option.address.1994677538" name="アドレス" superClass="com.renesas.cdt.rxc.Debug.StandardLibrary.option.address" value="00000000" valueType="string"/>
+								<option id="com.renesas.cdt.renesas.StandardLibrary.option.userSpecifiedLibrary.1819310864" name="ユーザー指定のライブラリー・ファイル" superClass="com.renesas.cdt.renesas.StandardLibrary.option.userSpecifiedLibrary" value="C:\Renesas\Middle\i_S2\trunk\S2_APP~1\FITMOD~2\RX_SAM~1\release\WORKSP~1\RX210_~1\HARDWA~2\RX210_~1.LIB" valueType="string"/>
+								<option id="com.renesas.cdt.renesas.StandardLibrary.option.libConfiguration.1888646658" name="ライブラリー構成" superClass="com.renesas.cdt.renesas.StandardLibrary.option.libConfiguration" value="C99" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.StandardLibrary.option.isa.282590923" name="命令セット・アーキテクチャ" superClass="com.renesas.cdt.rxc.Debug.StandardLibrary.option.isa" value="RXv1 architecture" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rxc.Debug.StandardLibrary.option.floatIns.1562583893" name="浮動小数点演算命令を使用する" superClass="com.renesas.cdt.rxc.Debug.StandardLibrary.option.floatIns" value="Disable" valueType="enumerated"/>
+							</tool>
+							<tool command="rlink" id="com.renesas.cdt.rxc.debug.win32.tool.convertor.Id.1447319953" name="Converter" superClass="com.renesas.cdt.rxc.debug.win32.tool.convertor.Id"/>
+							<tool id="com.renesas.cdt.rxc.release.win32.tool.config.Id.1644969507" name="RTOS Configurator" superClass="com.renesas.cdt.rxc.release.win32.tool.config.Id"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.renesas.cdt.rxc.debug.win32.configuration.Id.1392498416.1447789541.lib/s2_rx200_big_rtune.lib" name="s2_rx200_big_rtune.lib" rcbsApplicability="disable" resourcePath="lib/s2_rx200_big_rtune.lib" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding="r_s2_rx|r_bsp|hew_files" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="r_bsp"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="r_s2_rx"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="HardwareDebug">
+			<resource resourceType="PROJECT" workspacePath="/rx210_rsk"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="rx210_rsk.com.renesas.cdt.rxc.projectType.win32.Id.355842062" name="Executable (Renesas)" projectType="com.renesas.cdt.rxc.projectType.win32.Id"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+</cproject>

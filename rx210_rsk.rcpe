@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MicomToolCommonProjectFile Version="1.00">
+  <CreatorType Name="CubeSuite+" Version="V8.04.00  [09 Jun 2020]" />
+  <Placeholders>
+    <PlaceholderPrefix>%</PlaceholderPrefix>
+    <PlaceholderPostfix>%</PlaceholderPostfix>
+  </Placeholders>
+  <Project Name="rx210_rsk" Type="Application">
+    <Files>
+      <Category Name="r_bsp">
+        <Path>r_bsp\platform.h</Path>
+        <Path>r_bsp\readme.txt</Path>
+        <Category Name="board">
+          <Category Name="rskrx210">
+            <Path>r_bsp\board\rskrx210\dbsct.c</Path>
+            <Path>r_bsp\board\rskrx210\hwsetup.c</Path>
+            <Path>r_bsp\board\rskrx210\hwsetup.h</Path>
+            <Path>r_bsp\board\rskrx210\lowlvl.c</Path>
+            <Path>r_bsp\board\rskrx210\lowsrc.c</Path>
+            <Path>r_bsp\board\rskrx210\lowsrc.h</Path>
+            <Path>r_bsp\board\rskrx210\r_bsp.h</Path>
+            <Path>r_bsp\board\rskrx210\r_bsp_config_reference.h</Path>
+            <Path>r_bsp\board\rskrx210\resetprg.c</Path>
+            <Path>r_bsp\board\rskrx210\rskrx210.h</Path>
+            <Path>r_bsp\board\rskrx210\sbrk.c</Path>
+            <Path>r_bsp\board\rskrx210\vecttbl.c</Path>
+            <Path>r_bsp\board\rskrx210\vecttbl.h</Path>
+          </Category>
+          <Category Name="user">
+            <Path>r_bsp\board\user\r_bsp.h</Path>
+          </Category>
+        </Category>
+        <Category Name="doc">
+          <Path>r_bsp\doc\r01an1685ej0330_rx.pdf</Path>
+        </Category>
+        <Category Name="mcu">
+          <Category Name="all">
+            <Path>r_bsp\mcu\all\r_bsp_common.c</Path>
+            <Path>r_bsp\mcu\all\r_bsp_common.h</Path>
+            <Path>r_bsp\mcu\all\r_typedefs.h</Path>
+          </Category>
+          <Category Name="rx210">
+            <Path>r_bsp\mcu\rx210\cpu.c</Path>
+            <Path>r_bsp\mcu\rx210\cpu.h</Path>
+            <Path>r_bsp\mcu\rx210\locking.c</Path>
+            <Path>r_bsp\mcu\rx210\locking.h</Path>
+            <Path>r_bsp\mcu\rx210\mcu_clocks.c</Path>
+            <Path>r_bsp\mcu\rx210\mcu_info.h</Path>
+            <Path>r_bsp\mcu\rx210\mcu_init.c</Path>
+            <Path>r_bsp\mcu\rx210\mcu_init.h</Path>
+            <Path>r_bsp\mcu\rx210\mcu_interrupts.c</Path>
+            <Path>r_bsp\mcu\rx210\mcu_interrupts.h</Path>
+            <Path>r_bsp\mcu\rx210\mcu_locks.c</Path>
+            <Path>r_bsp\mcu\rx210\mcu_locks.h</Path>
+            <Category Name="register_access">
+              <Path>r_bsp\mcu\rx210\register_access\iodefine.h</Path>
+            </Category>
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="r_config">
+        <Path>r_config\r_bsp_config.h</Path>
+        <Path>r_config\r_bsp_config_readme.txt</Path>
+        <Path>r_config\r_s2_rx_config.h</Path>
+      </Category>
+      <Category Name="r_s2_rx">
+        <Path>r_s2_rx\r_adpcm.h</Path>
+        <Path>r_s2_rx\readme.txt</Path>
+        <Category Name="doc">
+          <Category Name="en">
+            <Path>r_s2_rx\doc\en\r20an0037ej0304_rx_s2.pdf</Path>
+            <Path>r_s2_rx\doc\en\r20uw0079ej0100_s2.pdf</Path>
+            <Path>r_s2_rx\doc\en\r21an0002ej0100_adpcm_tool.pdf</Path>
+          </Category>
+          <Category Name="ja">
+            <Path>r_s2_rx\doc\ja\r20an0037jj0304_rx_s2.pdf</Path>
+            <Path>r_s2_rx\doc\ja\r20uw0079jj0100_s2.pdf</Path>
+            <Path>r_s2_rx\doc\ja\r21an0002jj0100_adpcm_tool.pdf</Path>
+          </Category>
+        </Category>
+        <Category Name="lib">
+          <Path>r_s2_rx\lib\r_mw_version.h</Path>
+          <Path>r_s2_rx\lib\r_stdint.h</Path>
+        </Category>
+        <Category Name="ref">
+          <Path>r_s2_rx\ref\r_s2_rx_config_reference.h</Path>
+        </Category>
+      </Category>
+      <Category Name="sample">
+        <Path>sample\r_main.c</Path>
+        <Path>sample\r_s2_decode.c</Path>
+        <Path>sample\r_s2_driver.h</Path>
+        <Path>sample\r_s2_encode.c</Path>
+        <Path>sample\r_s2_peripheral_if.c</Path>
+        <Path>sample\r_s2_peripheral_if.h</Path>
+        <Path>sample\r_s2_sample.h</Path>
+      </Category>
+      <Path>プロジェクト変換情報_rx210_rsk.txt</Path>
+    </Files>
+    <DebugOptions>
+      <ConnectSettings>
+        <MainClock>20000000</MainClock>
+      </ConnectSettings>
+      <DebugToolSettings />
+    </DebugOptions>
+    <Device Series="RX">R5F52108AxFP</Device>
+    <BuildOptions Name="CC-RX" Version="V3.02.00">
+      <BuildMode Name="DefaultBuild" Active="False">
+        <GeneralOptions>
+          <SimultaneouslyBuild>false</SimultaneouslyBuild>
+        </GeneralOptions>
+        <CompileOptions>
+          <Option>-isa=rxv1</Option>
+          <Option>-nofpu</Option>
+          <Option>-lang=c</Option>
+          <Option>-include=sample</Option>
+          <Option>-output=obj=%BuildModeName%\%FileLeaf%.obj</Option>
+          <Option>-debug</Option>
+          <Option>-g_line</Option>
+          <Option>-nologo</Option>
+        </CompileOptions>
+        <AssembleOptions>
+          <Option>-isa=rxv1</Option>
+          <Option>-nofpu</Option>
+          <Option>-output=%BuildModeName%\%FileLeaf%.obj</Option>
+          <Option>-debug</Option>
+          <Option>-nologo</Option>
+        </AssembleOptions>
+        <LinkOptions>
+          <Option>-output=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-list=%BuildModeName%\%ProjectName%.map</Option>
+          <Option>-nooptimize</Option>
+          <Option>-start=B_1,R_1,B_2,R_2,B,R,SU,SI/04,PResetPRG/0FFF80000,C_1,C_2,C,C$DSEC,C$BSEC,C$INIT,C$VTBL,C$VECT,D_1,D_2,D,P,PIntPRG,W_1,W_2,W,L/0FFF80100,FIXEDVECT/0FFFFFFD0</Option>
+          <Option>-nologo</Option>
+          <Option>-end</Option>
+          <Option>-input=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-output=%BuildModeName%\%ProjectName%.mot</Option>
+          <Option>-form=stype</Option>
+          <Option>-exit</Option>
+          <PreLinker>Auto</PreLinker>
+        </LinkOptions>
+        <LibraryGenerateOptions>
+          <Option>-isa=rxv1</Option>
+          <Option>-nofpu</Option>
+          <Option>-head=runtime,stdio,stdlib,string,new</Option>
+          <Option>-output=%BuildModeName%\%ProjectName%.lib</Option>
+          <Option>-nologo</Option>
+          <GenerateMode>BuildOptionChanged</GenerateMode>
+        </LibraryGenerateOptions>
+        <LinkOrder>
+          <Path>DefaultBuild\dbsct.obj</Path>
+          <Path>DefaultBuild\hwsetup.obj</Path>
+          <Path>DefaultBuild\lowlvl.obj</Path>
+          <Path>DefaultBuild\lowsrc.obj</Path>
+          <Path>DefaultBuild\resetprg.obj</Path>
+          <Path>DefaultBuild\sbrk.obj</Path>
+          <Path>DefaultBuild\vecttbl.obj</Path>
+          <Path>DefaultBuild\r_bsp_common.obj</Path>
+          <Path>DefaultBuild\cpu.obj</Path>
+          <Path>DefaultBuild\locking.obj</Path>
+          <Path>DefaultBuild\mcu_clocks.obj</Path>
+          <Path>DefaultBuild\mcu_init.obj</Path>
+          <Path>DefaultBuild\mcu_interrupts.obj</Path>
+          <Path>DefaultBuild\mcu_locks.obj</Path>
+          <Path>DefaultBuild\r_main.obj</Path>
+          <Path>DefaultBuild\r_s2_decode.obj</Path>
+          <Path>DefaultBuild\r_s2_encode.obj</Path>
+          <Path>DefaultBuild\r_s2_peripheral_if.obj</Path>
+        </LinkOrder>
+        <CommonOptions>
+          <IncludePathForC>sample</IncludePathForC>
+        </CommonOptions>
+      </BuildMode>
+      <BuildMode Name="HardwareDebug" Active="True">
+        <GeneralOptions>
+          <SimultaneouslyBuild>false</SimultaneouslyBuild>
+        </GeneralOptions>
+        <CompileOptions>
+          <Option>-isa=rxv2</Option>
+          <Option>-nofpu</Option>
+          <Option>-lang=c99</Option>
+          <Option>-include=sample</Option>
+          <Option>-include=%ProjectFolder%/../%ProjectName%/sample</Option>
+          <Option>-include=%ProjectFolder%/../%ProjectName%/r_bsp</Option>
+          <Option>-include=%ProjectFolder%/../%ProjectName%/r_config</Option>
+          <Option>-include=%ProjectFolder%/../%ProjectName%/r_s2_rx</Option>
+          <Option>-include=%ProjectFolder%/../%ProjectName%/r_s2_rx/lib</Option>
+          <Option>-define=__RX</Option>
+          <Option>-output=obj=%ConfigDir%\%FileLeaf%.obj</Option>
+          <Option>-debug</Option>
+          <Option>-g_line</Option>
+          <Option>-alias=noansi</Option>
+          <Option>-nologo</Option>
+        </CompileOptions>
+        <AssembleOptions>
+          <Option>-isa=rxv2</Option>
+          <Option>-nofpu</Option>
+          <Option>-output=%ConfigDir%\%FileLeaf%.obj</Option>
+          <Option>-debug</Option>
+          <Option>-nologo</Option>
+        </AssembleOptions>
+        <LinkOptions>
+          <Option>-library=%ProjectFolder%/../%ProjectName%/r_s2_rx/lib/s2_rx200_little_rtune.lib</Option>
+          <Option>-binary=%ProjectFolder%/../%ProjectName%/adpcm/sound_adpcm.dat(ADPCM_ADDR1)</Option>
+          <Option>-output=%ConfigDir%\%ProjectName%.abs</Option>
+          <Option>-vect=_undefined_interrupt_source_isr</Option>
+          <Option>-list=%ConfigDir%\%ProjectName%.map</Option>
+          <Option>-nooptimize</Option>
+          <Option>-start=B_1,R_1,B_2,R_2,B,R,SU,SI/01000,ADPCM*/0FFF80000,C_1,C_2,C,C$*,D_1,D_2,D,P,W*,L/0FFFF8000,FIXEDVECT/0FFFFFF80</Option>
+          <Option>-rom=D=R,D_1=R_1,D_2=R_2</Option>
+          <Option>-stack</Option>
+          <Option>-nologo</Option>
+          <Option>-end</Option>
+          <Option>-input=%ConfigDir%\%ProjectName%.abs</Option>
+          <Option>-output=%ConfigDir%\%ProjectName%.mot</Option>
+          <Option>-form=stype</Option>
+          <Option>-exit</Option>
+          <PreLinker>Auto</PreLinker>
+        </LinkOptions>
+        <LibraryGenerateOptions>
+          <Option>-isa=rxv2</Option>
+          <Option>-nofpu</Option>
+          <Option>-lang=c99</Option>
+          <Option>-head=runtime,stdio,stdlib,string,new</Option>
+          <Option>-output=%BuildModeName%\%ProjectName%.lib</Option>
+          <GenerateMode>BuildOptionChanged</GenerateMode>
+        </LibraryGenerateOptions>
+        <LinkOrder>
+          <Path>HardwareDebug\r_main.obj</Path>
+          <Path>HardwareDebug\r_s2_decode.obj</Path>
+          <Path>HardwareDebug\r_s2_encode.obj</Path>
+          <Path>HardwareDebug\r_s2_peripheral_if.obj</Path>
+          <Path>HardwareDebug\cpu.obj</Path>
+          <Path>HardwareDebug\locking.obj</Path>
+          <Path>HardwareDebug\mcu_clocks.obj</Path>
+          <Path>HardwareDebug\mcu_init.obj</Path>
+          <Path>HardwareDebug\mcu_interrupts.obj</Path>
+          <Path>HardwareDebug\mcu_locks.obj</Path>
+          <Path>HardwareDebug\r_bsp_common.obj</Path>
+          <Path>HardwareDebug\dbsct.obj</Path>
+          <Path>HardwareDebug\hwsetup.obj</Path>
+          <Path>HardwareDebug\lowlvl.obj</Path>
+          <Path>HardwareDebug\lowsrc.obj</Path>
+          <Path>HardwareDebug\resetprg.obj</Path>
+          <Path>HardwareDebug\sbrk.obj</Path>
+          <Path>HardwareDebug\vecttbl.obj</Path>
+        </LinkOrder>
+        <CommonOptions>
+          <IncludePathForC>sample</IncludePathForC>
+          <IncludePathForC>%ProjectFolder%/../%ProjectName%/sample</IncludePathForC>
+          <IncludePathForC>%ProjectFolder%/../%ProjectName%/r_bsp</IncludePathForC>
+          <IncludePathForC>%ProjectFolder%/../%ProjectName%/r_config</IncludePathForC>
+          <IncludePathForC>%ProjectFolder%/../%ProjectName%/r_s2_rx</IncludePathForC>
+          <IncludePathForC>%ProjectFolder%/../%ProjectName%/r_s2_rx/lib</IncludePathForC>
+          <MacroForC>__RX</MacroForC>
+        </CommonOptions>
+      </BuildMode>
+    </BuildOptions>
+  </Project>
+</MicomToolCommonProjectFile>

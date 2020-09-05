@@ -1,0 +1,5 @@
+GND : CN2-1, CN-2
+
+PWM : CN1-12
+
+DA  : CN2-30
